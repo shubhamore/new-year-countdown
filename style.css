@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 3rem;
+    background-color: blueviolet;
+    background: linear-gradient(90deg, rgba(193,15,93,.25) 0%, rgba(153,148,233,.35) 100%), url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.date-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+    border: 3px solid red;
+    border-radius: 2.5px;
+    backdrop-filter: blur(50px);
+    font-size: 2rem;
+    max-width: 95%;
+}
+.date-container span{
+    font-weight: bold;
+}
+.date-container div{
+    margin: 0 15px;
+}
+.date-container h3{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+    color: #e3f017;
+}
